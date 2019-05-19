@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E0BB938B2290FBDA00ED1C34 /* HCKalmanFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BB93892290FBDA00ED1C34 /* HCKalmanFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0BB93932290FC2000ED1C34 /* HCMatrixObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB93912290FC2000ED1C34 /* HCMatrixObject.swift */; };
+		E0BB93942290FC2000ED1C34 /* HCKalmanAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB93922290FC2000ED1C34 /* HCKalmanAlgorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0BB93862290FBDA00ED1C34 /* HCKalmanFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCKalmanFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BB93892290FBDA00ED1C34 /* HCKalmanFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCKalmanFilter.h; sourceTree = "<group>"; };
 		E0BB938A2290FBDA00ED1C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BB93912290FC2000ED1C34 /* HCMatrixObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HCMatrixObject.swift; path = HCKalmanFilter/HCMatrixObject.swift; sourceTree = "<group>"; };
+		E0BB93922290FC2000ED1C34 /* HCKalmanAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HCKalmanAlgorithm.swift; path = HCKalmanFilter/HCKalmanAlgorithm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +34,8 @@
 		E0BB937C2290FBDA00ED1C34 = {
 			isa = PBXGroup;
 			children = (
+				E0BB93922290FC2000ED1C34 /* HCKalmanAlgorithm.swift */,
+				E0BB93912290FC2000ED1C34 /* HCMatrixObject.swift */,
 				E0BB93882290FBDA00ED1C34 /* HCKalmanFilter */,
 				E0BB93872290FBDA00ED1C34 /* Products */,
 			);
@@ -130,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BB93932290FC2000ED1C34 /* HCMatrixObject.swift in Sources */,
+				E0BB93942290FC2000ED1C34 /* HCKalmanAlgorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
