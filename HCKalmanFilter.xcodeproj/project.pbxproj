@@ -92,6 +92,7 @@
 				E0BB93822290FBDA00ED1C34 /* Sources */,
 				E0BB93832290FBDA00ED1C34 /* Frameworks */,
 				E0BB93842290FBDA00ED1C34 /* Resources */,
+				E0BB93982290FEE300ED1C34 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -142,6 +143,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0BB93982290FEE300ED1C34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Surge.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Surge.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0BB93822290FBDA00ED1C34 /* Sources */ = {
